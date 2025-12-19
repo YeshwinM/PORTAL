@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FUNCTIONAL GROUP FOR VENDOR PORTAL</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_VENDOR_PORTAL_YMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_VENDOR_PORTAL_YM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_VENDOR_INVDOWNLOAD_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR INVOICE DOWNLOAD</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <TYP>RE_BELNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>P_PDF</PARAMETER>
+       <TYP>XSTRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Document Number of an Invoice Document</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_PDF</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_GOODSRECEIPT_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR GOODSRECEIPT</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_VEN_GR</PARAMETER>
+       <TYP>ZTT_VEN_RECEIPT_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_VEN_GR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TABLE TYPE FOR VENDOR PORTAL</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_INVDISPLAY_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR INVOICE DISPLAY</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_VEN_INV</PARAMETER>
+       <TYP>ZTT_VEN_INVDISPLAY_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_VEN_INV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TABLE TYPE FOR INVOICE DISPLAY</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_LOGINPAGE_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR LOGIN PAGE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PASSWORD</PARAMETER>
+       <TYP>CHAR20</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_STATUS</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PASSWORD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char 20</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_STATUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character Field with Length 10</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_MEMO_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR MEMO</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_VEN</PARAMETER>
+       <TYP>ZTT_VEN_MEMO_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_VEN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TABLE TYPE FOR VENDOR MEMO</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_PAYAGING_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR PAYAGING</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_VEN_PAA</PARAMETER>
+       <TYP>ZTT_VEN_PAYAGING_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_VEN_PAA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TABLE TYPE FOR PAYAGING</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_PROFILE_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR PROFILE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_PROFILE</PARAMETER>
+       <TYP>ZST_VEN_PROFILE_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_PROFILE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>STRUCTURE FOR PROFILE</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_PURCHORDER_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR PURCHASE ORDER</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_VEN_PO</PARAMETER>
+       <TYP>ZTT_VEN_PURORDER_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_VEN_PO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TABLE TYPE FOR PURCHASE ORDER</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_VEN_REQFORQUOT_YM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FUNCTIONAL MODULE FOR QUOTATION</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_VEN_RFQ</PARAMETER>
+       <TYP>ZTT_VEN_REQFORQUO_YM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_VEN_RFQ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TABLE TYPE FOR QUOTATION</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20240701.1.52_SAP" APIVersion="3.6.24183.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2025-11-27T06:07:01Z" uuid="50964918-4161-448d-82a4-4e7f01bc080b">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="en_IN" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="10.5in" w="8in" x="0.25in" y="0.25in"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform h="10.5in" w="8in">
+         <subform h="69.85mm" name="Subform4" w="196.85mm" x="3.175mm" y="3.175mm">
+            <bind match="none"/>
+            <draw h="10.172mm" name="Text11" w="41.263mm" x="73.025mm" y="3.175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="89AAE93B-8BAD-41AA-94AA-3F50A1F0C49D">INVOICE</text>
+               </value>
+               <font baselineShift="0pt" size="26pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 114132 26000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 7 INVOICE 0 1418 21806 0 0 0 "Times New Roman" 1 0 26000 ISO-8859-1?></draw>
+            <draw h="8.055mm" name="Text18" w="81.174mm" x="3.175mm" y="22.225mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="BD4C2B75-F5F0-4DC4-A78F-07D53C2A6AC8">KAAR TECHNOLOGIES</text>
+               </value>
+               <font baselineShift="0pt" size="20pt" typeface="Times New Roman" weight="bold">
+                  <fill>
+                     <color value="128,0,0"/>
+                  </fill>
+               </font>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 227266 19999 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 17 KAAR TECHNOLOGIES 0 1417 17101 128 0 0 "Times New Roman" 1 0 20000 ISO-8859-1?></draw>
+            <draw h="0.406028in" w="85.725mm" x="3.175mm" y="31.75mm">
+               <font typeface="Arial"/>
+               <value>
+                  <exData contentType="text/html" xliff:rid="90479176-970B-48B1-89FE-DADD7D988CB2">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:'Times New Roman';font-size:12pt;letter-spacing:0in">Level 8, Shyamala Towers, No.136 Arcot Road,<span style="xfa-spacerun:yes"> </span></p><p style="font-family:'Times New Roman';font-size:12pt;letter-spacing:0in">Chennai - 600093</p></body>
+                  </exData>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            </draw>
+            <draw x="3.175mm" y="44.45mm">
+               <font typeface="Arial"/>
+               <value>
+                  <exData contentType="text/html" xliff:rid="FE36B8AB-C6AE-44D4-ABAB-37A923498C15">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:'Times New Roman';font-size:12pt;letter-spacing:0in">Mobile : +1234567890</p></body>
+                  </exData>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            </draw>
+            <draw h="0in" name="Line1" w="190.5mm" x="3.175mm" y="66.675mm">
+               <value>
+                  <line slope="/">
+                     <edge thickness="0.508mm">
+                        <color value="128,0,0"/>
+                     </edge>
+                  </line>
+               </value>
+            </draw>
+            <draw h="5.2331mm" name="Text19" w="49.683mm" x="3.175mm" y="50.8mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="4723D084-409E-424C-92DE-C0F281173E04">E-Mail : info@kaartech.com</text>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 138000 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 26 E-Mail : info@kaartech.com 0 1417 10827 0 0 0 "Times New Roman" 0 0 12000 ISO-8859-1?></draw>
+            <draw h="5.2331mm" name="Text20" w="89.232mm" x="3.175mm" y="57.15mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="E69CBE9B-6AA7-4713-B5B5-4218649B1DA3">https://www.kaartech.com/explore-us/about-us/</text>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 250107 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 45 https://www.kaartech.com/explore-us/about-us/ 0 1417 10827 0 0 0 "Times New Roman" 0 0 12000 ISO-8859-1?></draw>
+            <draw h="44.45mm" name="Image1" w="85.725mm" x="107.95mm" y="15.875mm">
+               <value>
+                  <image aspect="none" contentType="image/png">iVBORw0KGgoAAAANSUhEUgAAATUAAABuCAYAAABGIYSEAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADZMSURBVHhe7Z13fFRV+v/f907PTJJJIb2QBAiE
+jiCKIAJi2dVVd78q9u7XCru6uuvuKvtVV9eOwLpWdBFcO7qrP0VABVGqdEgISUjvZVKmz73n98eE
+gRmKID3c9+t1Xpl7z7ll7mQ+c85znuc5khBCoKGhodFDkCN3aGhoaJzMaKKmoaHRo9BETUNDo0eh
+iZqGhkaPQhM1DQ2NHoUmahoaGj0KTdQ0NDR6FJqoaWho9Cg0UdPQ0OhRaKKmoaHRo5COZ5jUcby0
+hobGCYokSZG7Dgmtp6ahodGj0ETtpxACoSiRezU0NE5QNFH7CTxFm2ia/RjencWRVRoaGicgmqj9
+BK1vz6Lrs/m0LZiL4uyKrNbQ0DjB0ETtAPhbm/FsWAmAe9kX+OurIptoaGicYGiidgDc634AvxcA
+4ezAs21DZBMNDY0TDE3UDoBny9qwbaWlIWxbQ0PjxOOUFLXaZctZNu1+Sj5egMfhiKwO4YucHIiK
+Dt/W0NA44TjlRE1VFDa98irFH3zAt/f+lkXX30Tzxk0IVY1sitravHtDkrH0LdizWkND4wTklBM1
+VBXF4wm+FoKGtT+y5u9P42rYe2gpAr7Qa11qFob03mH1GhoaJx6nnKjJej0muz0sFKNu+Q+Uf/Fl
+WDsASW8IvY4aORZ9dGxYvYaGxonHKSdqSBL2Pnmwh6ipSoBtb/5rryGoFBsf/GuLxTzkdCSzJaxe
+Q0PjxOPUEzWg12kjQA5/6+2lZTRt3hy2z5ieHfyb2x9j3oAwIdTQ0DgxOSVFLWnkSIzRe89k1n/3
+fdi2IX8Ykk6HKW8AxtTMsDoNDY0Tk1NS1CzxceT+8sLI3TSuD3eujRpxBpI1FkOfAiSdLqxOQ0Pj
+xOSUFDWAwXfegd4SFbavtbAINRAIbZsyczD2H4IxTZv11NA4WThlRS26dzb9r5oSts/T1oazti60
+Lel0RJ//G2SbLaydhobGicspK2qSJDHgpuuJyckJ7ROBAG1FRWHtrGdMRI5NCNunoaFx4nLKihpA
+dFYmg267BWNMDACKz0fzlq1hbWSjEUNc0LVDQ0PjxOeUFjXZYKD3Ly4g+4LzkPV61ECA1m2FKL7d
+kQQaGhonF6e0qAFEJSUx/LfTiBvQH4Sgq7qazsrKyGYaGhonCae8qAHE9M7m/LlvYYq146yro60w
+3K6moaFx8qAtkbcH7aVlLJ32O5JPH8WI+36L4RSb9VRVlcbGRqxWK9H7cE4+WgTcbjwNDQScXSge
+DwFXFwQUZLMZo82GbDJhtMdjTEjQ/AVPAQ53iTxN1PZECBwlpdQsW076+HHE5uUe9gM+mfB6vbzz
+zjsMHDiQ008/PbL6iCKEwNPURNOa1XSVluBtaUESAkknI0ndEWmKgvB68Xc4kE1mYgcPJSZ/APah
+w9FbrZGn1OghHO53ThO1CIQQBFwuhKruM5RqF0IIUFUkWe4xMaEej4f58+czaNAgRo8eHVl9RKlZ
+spjaxUuIykjHnpdHdF4e5l5J6Mzm7t6YQAQUFI8bd309rvIyOrYX0rpmFTF5uWRdcxPR+QMiT6vR
+A9BE7TghhAhm9eheF1TxevF1duLr7MTb2orOZCYqNYWoXr2QDbtTGJ3IHAtRUwMB1j/2GAGXi/xb
+bsWWnYXebP7pHwYhULxenJXlVM19g/Z1q8m587ekXnxZZEuNkxxN1PaDUBSEooIs4Xd5EH4fOpMZ
+vcV01O0yQggUjwd/ZydddfW0bivE29ZGXL9+xA3IR2+xoDMa0VssR/1eDoWjLWretjY2PfssMf36
+0veaa5H1+sgmB4Xq81H9/juUv/wCmdfeTPaN/4tsNkc20zhJ0URtD4Si4G5qRg34QZIJuFyY4uwY
+o6PRGY1hvQHF68XX0YHX0Y7f6UTxeFB8vqAYqipCVZEI5l+j+68ky0iyjGwwoDOZ0EdFYYyNwRQb
+GxSoiHRGe6J4vXTV1tK6ZSttxTswxcYSlZxEVFIS0Tm9sfTqddgf5uFyNEXN3dxM2YcfEpOXR8a5
+5x72exWqSvO3i9n58kxSLriI9CnXoYvS7Gw9gcP93+gRoiYUhdai7ThrazHFxmK0x2JLTUNvjQoJ
+TcDrpX1HCW2FRXTV1eFt7wAh0BuNyEYDkl6PpNMhSRKSToes0wWPleXgEFNVuv+K4H2L7ocvger3
+IQBTbCyxOTnEDxyIyb7/LLkBt4fOqkoa1/xIy5at+Fwu4vv3J3PiOdj79jmgOB5NjpaoKT4flf/v
+C3RmE+kTJqAzmSKb/GwavvgP1e+8RdYNt5M4YfIJ1fPV+Hmc8qLmrKtny6uvE5WcRNa5k7Cmp6G3
+7M5Q21lVTdknn1K3ajU6o5HEwYOIzc0lKjkZY2wMxmgbeosF2RAUNlmnA0lGliVE9wMWQiB1uzwg
+BKqiIAIKqt9HwOPB73Ti6+jE29aGs6aG1qLt6C1R5Fx0Ib2GDkXazzBLBAK4GpuoXraMDTNmo7da
+6H3hBfS/5mqsqSmRzY86R0vUHCWl1C1dSp8pV2I4wrOWittF5ZyX6djwIwVPzcQQr8XpnuycsqIm
+hKBq8RJ+eOhhBt12MwW33hwUpG4Ur5fi9z5gw8zZJI8cwdC778LePx/dHkb7jooKnLV1JBQUYIiJ
+PuSHKYTA29ZG67ZCojMzsWVlIkkSaiCAY3sxRfPeQdbrGPmnP4YJ7b5w1tTw+RVX0VleQXxBAeNn
+vkD8gP6RzY4qR0vU1j35NAW334o54ejE0LrKStn+yP0kX3YFab+5OrJa4yTjUL+HkRyfcc5hovoD
+lH3yKT/86WFyLv4Fg26/NUzQAMq/+JLCt+ZyxvSHOWfWTBIGDwoJmq+jg6XTfsf2t98hacRwjLEx
+P+tBSpKEOT6exCGD2f7ue2x4cSYBlwtZryd+YAFnPPZX0s85h9WP/i3y0L2wpqcz/sUXsPTqRcvW
+rSy85noaVq2ObHbS0batkJg+uUdN0AAsvXOwnzmO+vfno2pxu6c8J6WodVZVseWV1/E62sm/+qp9
+ugO4GhtJGDKY9HPORjaED//cTc3UrViJp60Nd1PTXguuHCru5hactbU0/rgOv8sV2i/r9WROmoA1
+I+2geqX2PnmkjjkTAGd9Pcv/8Kd9Lt13MlG7fDlZF14QufuIIsky8WdPwtdUT8fGdZHVGqcYJ6Wo
+dZSX07J1G0BwVnMfZJ93HnH9+tK6rTAsmy3dKYfGPfs0pthYNv3zZba88jp1K1bhbm5B9fvD2u4L
+xefDWVdHzbdL2TBjJptffY3ozEyG/+63mO32sLZqIEDepZccVE9QkuSw4XF7eTlNESnGTyb8Ticm
+eyzGYxBuZus3AFOvJFqXL4ms2j/dDtR020o1egYnpU2tZukyvrj6OgBO/9NDDLn7jsgmIAS+LieO
+kh14W9uw98nDlpkZmlkUQqC43fg6u3A11NNeWoazppaAx4Os16MzGpFNJmSdLuhoGwig+n34PV4k
+AXprFLaMdGLzcrH06oXRZgvO6kWI1673eDCi5tixg4XX3kBnVTUAOpOJSa/8k6zzzo1selQ40ja1
+ls2b0UdFEZuXF1l1VNjx8P24a6sY8sb7kVUACJ8P545CnOtW4Sktwt9Qg+RzI0mgi47FkJqFuf8Q
+bCPHYEzN2Ouz1Dg2HMx35UCclKLWVVXFN/dMo2Htj+iNJs75x0wyJ+3fVUAIgae5GXdrKzqjEaPV
+imEfvmuS1D3j2e0HpSoKQlGCdd0zo0fD3UIoCu7mFr69Zxq13wdXtJIkibj8fC769KMDhmsdSY60
+qDWsWk3CkME/OUlypKh8ZSaN/3mf0/6zNOTaofr9+BrrcSz9itaF/0FpqceYmolt0HDMuf0wpqQh
+my2IQADF0Yy/qhxPaRE6SxTREy7EUjAM2WpDknfbbIUQSJKE4vPtd6Sg8fM5JUVNDQSo+vob1v79
+GRzFxRisVgbddis5F/+S2NzcvWxokag+H363Oxi7qdOBrEOWZZCDDrbserCyHNx/mA95vwiBu6WF
++pWr2fSPf9K0cSN02+LiCwo468nH6TV8WORRR40jLWotW7Zi79f3mH3xa95+jZq5r3Daf5cjGwx4
+qitpW/YVjq8XoouOJmbUWcSeNQFLdu6B/dmEIOBoxb11A8LrwZCdiymjN7LZQsDpxF1bQ1RGBtWf
+/5e08y/EEB3MnKxxZDglRQ1A8flpWL2arW+8SfW3S5EkicQhg8mcNJGMSROJ69MH2XhoMZdCiKBt
+RYjdQiZJh/2QIwn2HFuo/f57qhZ/Tc133+FuagbAFGsn67xJFNx8E72GDok89KhypEXN09qGKTbm
+wAJyBKme8xK1/36LEQu+pmPdauren4vkddPrV5cTM/JMjMmph9zTVlxOAk0NCJ0eU0oqPkc7bRs3
+ED/iNFrXriZuxGnobdH7HSVoHDqH+307aUUNgr+oroZG6leuYuuct2jauBHZYMCakkJ8QQG9LzyP
+lNGnY0lO3svl41gjhMDf5aStqJDKhYupWb4cZ20tnjYHQlGQdHpSRp9OwY3XkXrmGZjj449eD3E/
+HGlRO9aU/n06jh+WknXn76h562VizxhH6uXXYkpLDxs++js66Koox1tbg9/ZiU6nw5SUgi0nB0Ni
+0j5jUlWfF0kf/JFUvV5kgwERCFDz5eegKKRddIkmbEeIU1vU9kD1+ahd/j1bXp9D3YpVKF4PdBvb
+k4YNo/cvLyRp1Ehic3oHbVSH+eAOBtXnw9nQQPPmLVR9tYTqb7/F1dQU7Al2f3iG6BjSx57F4Lvv
+IOkYDjX3xckuaptuuRJvZRkISL3uVtKm3IjcLTRCUWgvKWbHnDnUfPE5sqzDnBCHyWJC9XpQ2luR
+A37ihw0n84bbiD/rnP1GggA0rl1LXP/+7HjxOWSjgT533Iv+GNk+ezqaqEUghMBVV0/llwupX/sj
+7Tt34mlqxtvZier1oTebicntTcKggdiysrAmJ2OOj8MQHY3eYkFvNiEbjMh6HbJOHxx+ysGHHBye
+glAV1ICC4veh+vwE3G4CTife9nZcTU24qmtpLS6mtbAIV0MjQlWQ9Xr0FgvGmBgsvRKJzc0l9Ywz
+yJh4DtaU5GMisj/FySxqnroaNt3wa1RXF2nX/y/p19+OzmwGIegoK6P8009o3bSZXsOGkDb5XGLy
++qIz757AUJxddBVtpXnpEjrWrsAUF0faNTcTPWwkuqjdLilqIEDHjh38MHUqIx6ZTvzgQSBJGGP3
+H+urcWhoonYAgrOKzbQWbqejvBxXQyOu+gactTU46xvwdXTgd7m6h386DBYzBls0xpho9JYo9BZz
+cMaze+gqul07FJ+PgNsdivn0d3Xhd7uD4qXTozObMERZMcXZiUpKwpqWijU5laiUZGLzcojrn48p
+Lu6wP7wjzckqakII6j/6Nztf+Bspl15J9t33o4uyIlSV2mXLaPxhBdG5OaRPmoQ5MfEnn7u3roaW
+rz6ja/1KYkacTuKvrkRvj0coCo7txWx+/lnqlizBmpnJiP97lOQxY7Sh5xHkpz6fn6JHi1okQlHw
+O11429rwtLXhdzoJeDwEulx4O9rxOhx4W1vxOdrxdXXid7lRvF5UJZihg+4HLhsM6E0mdBYzJls0
+xrg4jHF2zHZ7MA2RNQqd2Ywx2obJbsccH/+TqYlOBE5WUfM1N1H86B8RgQD5f3sBY1w8QghqlnxN
+2/btZE0+l9g+fYIZVw4WVaFr8wZaPnkHU2o6STfdg6TT42lqombxYjY//RS5V11NzhWXY8vMOmkS
+gR4IxeUm4GhDb7eji4qKrD5maKJ2JOjOYquqandySQVUNZhmiO7Z0DCCM6KSHHT7kHQ6JFmHrAvm
+WzsRhpI/h5NS1FSV+s8+puKfL1Dw/CtEDxgEQFthIW2F28k6f/LPXs9AqCr++lpqX5hO7LjJxP1q
+CnT7vhW++ir9b7klOMSNQHG58DY2YU5LRY5wZwl0duJrbiYqO/vQRPYo46muofLF2bjKK8m841YS
+Jk2IbHLMOFxRO3Ge6vGkO4eazmBAbzZj6HbO3ZUA0mS3R5RYjLExGKKjMVit6M1mdEZDcJh6mB+I
+xqHhLCuh5t236TXxAqw5wciFXVmH0885e5+CJlQVf0c7XTuKaf52EQ2fvE/L1wtxFhcS6GgPxQJL
+sowxLYO0aY/Q+u5reCtKoXsR7Pz9CBqA6nJT8ewM6t/7MOwHUXi9bL//QWreevuE+z/p3LARQ3IS
+g//12nEVtCOBJmoaJy3e5kZ2vvQC3qYG4s6eiNxt+Pe73dh698YUv+/MIKrPh6e+DkNMLPaRZ2If
+NxHJYKRt0X+on/867d9/E5btw5iRTfLUR3B88Caq1wsQXFdhPxgSE0i9dgoNHy/AWbwDuk0fDZ/8
+B39zK9n33nVCiZpQVQJOJ8a4uNBs8cmMJmoaJyXumiqKn5xO09dfETN4GNa++aE6Y3Q0loT9J4vU
+mc1E9+uPKTkZvc2GKSGR+HETSL/jfuLGTaRzzfc0vfs6qi8oYADW0Wcjx/fCV1oYdq6Qs3YEMaNG
+knjeZHb+/VkCnZ24dpTQ/OUicv5wP8bERITfj6e2Fuf2YnytreE9OkXBU1eHc3sx3vqGUKieCCgo
+XU5UtwdX2U48NbUIRcHX1Ixz+3a8DY0HzDijOJ24SkpxlZQS6OwMXTPgaEfp6EJxOvG3tkYedtKh
+2dQ0QpwUNjUh6NxeRMkLf6dj83rix5xNdH5/sm+564ATMaI7XvNg8Lc00TBnFuacPBJ/c32oV+Ut
+LcJTuInYi64ItVU9HhSvB0NM7F69L6Wri6LfPUD0kMEoTie6mBgyb78l6FP59nw6flyPPiYWf2sL
+vX71S5J+dTEiEGDHXx4h0NaOITYWX1MzyVdfSa/zJ+OtraPx0//i3F5MoMtJ3NljMKdnUP/+Bxii
+Y3BX15J61eUkXXJx2H0AdK7fQOUrr6MzmYMp6H0+Mm69mZjhQyl/bgat3y4DRcVWMIB+z/098vBj
+ysF+TvvjhBC12tpaZs6cSW1tLQDDhw/nxhtvJC4uDiEEK1asYM6cOfi6hwQJCQncdtttFBQUhJ3v
+aPL222+zZMmSYErvn0CWZSZOnMj1118fWfWzKCoq4o033qChoQGbzcbNN9/MyJEjI5sdNie8qAlB
+27q1FD36EIF2B6Pmf0rNB/OIHT6SxPGTIluH8LS00Lp5C8lnnnHQrhdKRzvVzz5Myo13Y8oN9gKV
+1mZcW9djPXNCKOpADQTwVe3EkJiELnpvXzVPbS3rL/o1toEF9Hn8r1iys2j+ajHNn39B3vS/YIiP
+w9/ezvbf/5Hse+4keugQOjdtJnrIYADavvueqtffYsi/XsNdUcmOP00nduyZZN52M6rTReXM2cSe
+MZqEyZNwl+0k4HYRPXBg+D1UV1P22JOkTLmc+AnngBA0/b8vafhoAf1nPIveZqPu/Y8QLhepN1x7
+zMLa9sfhitr+f9qOIevXr2f+/PnMmzeP+fPnU1hYiMlkQgjB119/zZVXXsmcOXOYN28eixYtYsiQ
+IcdU0BwOBwsWLGDu3LnMmzfvJ8t7771HV1dX5Gl+NmvXruWtt95i3rx5fPbZZxh6gPvAISEEnsYG
+Kt7/N+t/dxemlHRGzHkXc3o6/o52zBlZkUeE4W5qwuNoO2hBA5CtVqJPH0fXhtXBfGuALi4B6xnj
+w0LuZL0etcOB6nLucfRujImJpFx1OfbxY7FkZQLQuuhrLLk5uEpLaV+zFmdhEeakJJxFxQCYUlJo
+X7MWx4pV+BqbUFpbAJBkiaicbBLGnYWs1yMZ9MhRUbStWEXb8h9Q/H6sffuGXR/AVVKGoVdSSCiR
+JOInjAdZpmtbUWTzk54TQtRKSkpob28HwGw2k5ubi9ls5vPPP+eWW26hpqYGgNzcXGbMmMFNN90U
+jKX0+/H5fGHF7/ejdNsgdhEIBPZq5/P5CAQC+xwCq6oadkxlZSUNDQ3odDp0uu6MHhHsqtPpdJhM
+JoYMGYKqqni9Xjo7O+ns7MTpdOL3+/e6phACRVH2+X58Ph/l5eWh5xMTE0NmZuYB778nobjdNHyz
+mK2P/pmS2c+ReeU1DJj+BNbcPkAwtbspMSnysDDaioqwpqZF7j4gkk6PJbcvwuVEcXX/QEkSsiE8
+XRVAoN2B6nGH7QshSUgmc9CPrfs4f1srzqJiWr9ZRus3y2hb9j2GxASi+uThraml/JnnaP7yKzp+
+XI97586wxKW6KAtS94+aLiqKlMt/gzk1hZavFlP2xFM0LPhPyAa3C9XjQWc2hvnS6SwW9FYrgY6O
+sLY9geM+/PR6vTz44IP84x//QFVVkpOTmTVrFkajkQceeIAdO4KzR3379uWJJ57g17/+NZIksXr1
+al555RXa2trCzilJEjqdjttuu43Jkyejqiq/+93vqKqqCmtHtxCNHj2am2++mfj4eFRVZfny5cyd
+OxeHwxEaavbt25fTTz891C0uLS3lxRdfDA2X8/Pzefzxx0P1sixjsVh49913cTgcBLoz70qShMFg
+oKCggIcffhij0UhpaSmvv/46O3bsCEYs7PFxGAwGrrvuOhYsWMCbb74JQFxcHOPHjw+dLzk5mYce
+eojMzGAv4HA40Yafzopyyua8QvN332AfNJTMq64jbsSosB5X8d8eoe8fHjlgnObWl/5J2qSJxOXv
+nkw4GHw1FXR+t5iYib/AkJQaWR3C8f8+xNRnAJZ+4cM+un3aKv/5KobYGNJvCCY2LZ8xK5jq/c7/
+RdLJoKp46usxJSfT/PkX1H+4gIGvvYRsMtG+Zi1lj/+d4Z9+iKeqirq33yHpN5dhze8HQqD6fEg6
+HSIQwLF2HVWzXqLg5VkY4uJC99Dx4zpq5/2b3vdNw5yZAYCnsoodf/kreX/9C1G9s3vU8BNxHFFV
+VVRXV4tLLrlEAAIQffv2FS+88IIYOHCgkCRJACIrK0t8+OGHwufzCVVVhaqq4rXXXhNmszl0XGQZ
+Pny4KCwsFFVVVSIzM3Ov+l3FarWKf/3rXyIQCIgPPvhAxMfHC51OF6qXJEnceuutwuv1hq69ZMkS
+YbfbQ21uvPHGUJ2qqqK4uFgkJycLWZb3uh4gjEajeOSRR0RxcbE477zzhNFo3KsNICwWi3jvvffE
+Oeecs1fdrqLT6cQFF1wgGhoawu7h5xSXyyVee+01sWLFir3qjmVR/H5R+NJssfCMYWLx+NGi8uMP
+hNfh2KudqqqiZOYze+2LLBuee040bdy01/6fKt6GWtH80Vzhraveqy5UFEW0vPuGcG1et3edqoqA
+1yvKZswSVW/+K7TPWVIqNky5TlS88ppwlu0U5bNeEhtvuFW4KqtE6w8rxQ+jxoiGLxaKtjVrReHv
+HhArx4wXqqoKV0WFKH38SdFZWCRUVRW+lhZRdN+Donz2y6KrpFQU/2W62HLbXSLg8YTfg8cjSp9+
+Tmy46jrRvmWrcPy4Tmy+9Q5R9tyMYNtAQNS8856ofv1Nofj9e72HY10OF91f//rXv0YK3bGkrKyM
+t99+m7q6Oujuifj9fpYuXQpAbGwszz//PFdccUVo2Of3+yksLKStrY3c3Fxyc3PJzs5GkiQ6OztD
+M11nnXUWBoOBkpIS0tLSyM3NJScnh6SkJBobG1FVFb/fT//+/Rk+fDjnn38+ra2tCCGIjY2ld+/e
+FBQUcPHFF3PaaadB99D022+/5f33d6eMvvXWWxk1alRo+5577mHVqlUIIUhMTOQXv/gFAwYMoKmp
+CZfLhaIoqKpKVFQUs2bNQlEUJEkiLS2NzMxMUlJSSE5OJisri0svvZQ333wzNPwcOnQoKSkp+P1+
+PB5PaKg8evRocnNzQ/fwcwgEAmzevJmkpCQyMoK/6McK0Z1evXnVSlbfdSvN331L4phxjJz1KvEj
+Ru7XHuYsKyN6wMADzny2FW5DliCmT3DIerCoHQ4CzY2YevcJ+cBFono9eNavxJCRjb7XvtdqVTxu
+zMnJoV6SIS6O2DNH4/juB2rnzkMfG0Pe9D9jSuqFOSMd26CB1Lz6Bu6SElKvuwadzUrsqJEgBErA
+T1RuDnqbDdliIaqgP47l31M379+YszPJm/6XvZyCJZ0O+xmjMcTFUfHiTNpXryX515eSdvWVoYgH
+xeNGZ4/F0r3M4/HkcK9/3IefixYt4tprr6WpqQmA8ePHYzQaWbRoEXQP7X788Uei9ohFa29vZ8WK
+FTid4cbZXbOkDoeD7Oxs3nrrLaxWK5WVlXvZnqZNm0ZtbS2SJPH000+Tnp7O1VcH14xMSEhg1qxZ
+XH755ciyHPaQvV4vf/jDH5g5c2Zo35o1a0Ki53A4yMzMDN3b9ddfz0UXXYTX62XevHksXLgQgPPO
+Ow+r1cqCBQsAGDZsGF999RUJEf5Vn332Gf/zP/+D3+/HYrFQX1+PzWbj2Wef5dFHH8XpdNKnTx/m
+zJnD2LFjw449VI7X8FMoCk2rVlHz+X9oWLYU+4D+9L39LhJOG7mX/SqS1hXLiRk0NJT2p6uqmqjk
+pLDwpLqlS2n5cS0F9049pBhN785ivFU7iR4zab/D20BzA23vzyFm8iWY+v6MySuxR0LSg9m/Pw62
+/cG2O44crqjt/+ftGKAoCpWVlbTu4fA3YcIE+vTpE3pjdXV1fPrpp2GiNH/+fK655hquvPLKsDJj
+xgwcDgd0G9RdLhf33nsvU6ZM2avtLnuYzWajd+/e/PDDD6HzjxkzhnHjxqHT6fZ6wH6/n02bNoW2
+Y2JiGDBgQGh79erVYWI7b948rrrqKm688Ua++uqr0P7JkyezefPm0Padd95JYncGiV1FURS2bt2K
+v9tQPHToUKKjg4su+3y+kM3PbreTnZ0dOtfJRHtxMVufe4Z1D/2ersoKCu5/gNOemUHCyFEH9eWz
+5vXD39UZ2m4r2k5b0fawNjF5efg7O+jots8eLLI1GmNm7n4FDUBxtKC6XUiWnxkAvr/3uL/9++Ng
+2x9su5OY4ypqPp+Pbdu2hc1WTpgwgcsuu4y87hWIOjs7mT17dpgAzJ07l7a2NlRVZdCgQdxxxx3c
+eOON9NljeJGVlUVJSQnr168nEAhgMBi4/PLLueOOO5gwYUJIrNLS0khOTmbNmjWhYwcMGEBiYmJo
+e098Pl/YvYwcOTKsF7ltW3DpPrqH0meddRbnnnsu5557Lueddx4XXHABf/vb37jiiitCvVOAnJyc
+0OtdKIrChg27l8g7++yzobtHtXPnTjweD5IkkZKSQmrq/g3ZJyKKz8fOjz5i5bRplH/0Af2n3ceI
+J58h8+JLMBxCbjJDfDzGuN3hUPb++dR8+21YG0tyMnEDB1L9+X8JOA/e1UafmIQpa+/PJYQQ+KrL
+QVWQ9+GjpnF8OK6i5vF42LJlS2hbp9Nx2mmnMWHCBC688EL0ej1CCFauXMmcOXNC9rI9heOZZ55h
+9uzZPPjgg6Sk7LZpFBQUUF1dja/bYTcvL4933nmHWbNmMWLEiJCopaenEwgEQj03q9VKTk4Opv3Y
+cIqKimhpCfoNAYwbNy6sfk//tKSkJB5//HEWLFjAJ598wieffMKCBQt44IEHsNvtYdd46qmnKCkp
+oaqqKlR8Pl+YqO26VmNjI9XV1QghkGWZQYMGoT9Ab+JEQ1UU1vzhQVY/+ABxAwcy+cvF9P71/2DN
+yDjkmTdZrw+zIZnssSheL47ioM8X3QHoWb+6lICzi6KZL4b2/xSSrEPS7X6uwh+++rvq8+JcsxxT
+Vm/0MeHrvWocP467qG3dujW0vavXo9PpuOeee0K9NSEEb731VsgetWfP6Fe/+hUxMTEMHz6c7777
+DrpdKsaOHYvZbA5NLhQWFhITE0NMTAzPP/88qqoiyzI5OTm0trbidgf9jBITE+ndu3fo/JF8372E
+3S52uVfsoqCgAF33F3P79u1MnDgRu91ObGxsqHz44YcYDAbGjRsXEtclS5bQv3//0MTH8OHDaWpq
+YufOnQBYLJaQ3a6uri4kwjqdjmHDjm8a8IMl4HbTsHIln40/G0fRdkb9/SlGPvEEpj3cDw4Xg9VK
+/IABVH25kIDLFdovG40M+uOf0VujWPeH+2hduxpXVSWBri5UnxfF7SbQ1YlQwhe+3oWvsR5vfXAy
+axf+umr8JVsx9htywg7r/M0tuErL8DscQRcQjwdXaRneujpExCLfPYXjOvu5c+dO5s+fj9VqxWaz
+cdVVV4VEIiEhAZvNxurVq7HZbBgMBqqrqzn//POh+4ttMBiwWCwYjUbMZjM2m42kpCQuueQS7rrr
+LoxGI2VlZfj9fqxWKyaTCZPJFLreqFGjuP3222loaGDNmjWYTCYKCgq46qqr9jv8fOONN0LG+qSk
+JB5++GEse6xrmZWVRVtbG36/H1mWiYqKwmKxhEpcXBxTp04lLS2NjIwMWlpa8Pl8mM1mrFZrqIwZ
+M4bs7GwWL16MzWZjxIgR3HDDDRiNRrZt28aXX36JTqcjLi6OBx54YK8Jhp/D0Zz99DoclL73Hltn
+PE+vUaMZ9qc/kTJu3D4XOTkcJEnCGB1Dw/LvUJxO7Pn5IcGR9XoSRo3Gmt2bltUr8NbXIQI+FI8n
+GMPpcqGzRO01meCt3Im3eCvWwSNC5xKBAI2zH8cQHUvMRVOQjbt73b6GRlq++ZaOdevp2rJ1r2JK
+Sz1mSRhr5vyL8hmz0NlsWAf0x1VcQuFv78dbVU30kEHobLtTlZ8oRNqxD5XjOvvZ3NzM+vXrQ9v5
++flhTqRut5sffvghNEkgSRIjRoxAlmW2bdu21+wn3T2agQMHYrfb8fl8lJSUUF9fv1fMpiRJpKen
+06dPHyorKykvL0dVVex2O4MGDcK8n9Qyq1evpqPbC9tsNjNmzJi9IgycTifFxcUhu9+eGI3GUI9U
+URTq6+tD9rE9SU5Oxm63s3170OidkJDAkCFD0Ol01NfXs23bNlRVRafTMXbs2CMSOnW0Zj8Dbjeb
+Z8+mdvFi+lx5JblXXIHhaH6ZhKB5/XoKZ79I1iWXkX3JpZEtUJUAqtuN6vGALKOzRAXdRiI+S+/O
+Ypwb1xAz/gL0cbt/OBxffEzzS4+T8vAMbKcHbZ276Fi9lh3TH8VdsbfDN8DQ994menAwmeXRpnT6
+o9TOf4/s+6aScdvNdG7czKYp1xE3dgx9Hp+O+Qj/eB0JTmpRO46X1tgHR0vUNs/+ByX/fpeh999H
+9kW/PCaLGwtFoenHtaz97T3kXHkV+Xfes1cW2gMiBO6izXR98xkxv7gcU+/dMZWuos3U/t9UrMPP
+JOX+R8PsbgDtq1az40/TcVdU0u/pv6GLDhfw2FEjEYqK4nKis1oxdud9CzidBBztCFXBlJoa6sX6
+W1pxV1QgW61YsrP28kPzOxx4KitBbyAqLzfMp++gRU1V8dTW4WtsxJSSjDE1NSQuQgg8NTXIegOG
+ODu+5ma8tbWYMzMx7WHH3oXq8+GpqibQ1oopMxNjUlKYUKmBAN7aWvwtrZjT0zEm9Qo7XhM1jSPG
+0RC1qiVfs3zqNEY8+AD9rr3mkCcCDpeO0hI2/H4qUalp5N5yB9F9+6G3Wvd5H0JVET4vSlcnjq8+
+wVe0kYQb7sWc17+7gcBXW0Xt89MJNDeQ+88PkfcxjNxT1Eat+Bpz/G5ThpAkJKDpiy8pe/wp1ICf
+oe/Ox5gQT/mzL9D4yX9JvOQX9H3s//DV11M5+2WaPv8Sxe1GkiTMvbPJ/dODxI07C9XlombufGrf
+eptAZxcSYEpPJ2vqXSReeB6ywXBQoubeWUHpY0/QvmYtIhB0BLePPYOcPz5IVE5v1ECAH4aMxJiY
+iCEhHueOUoTXi84aRdp115B5x63obDZEQKF16TIqX5hJ145SEAKd2UziLy8ge+rdmFJTcO7YQen0
+x+jctAWhqEiyRNyE8eQ+9ADmtDQ4AouHH1ebmsaJxZG2qbkbG1k+bRrpkyYy5N57kQ1H1n52MJji
+4+k1fgKe+loa/vMhrSu+R+1qx9/Wgr+5CV9TA776WnxVO3EVbqR9yed0ff0ZuigbiTdPw5i2OwOI
+p6KUxjkvEqivJO33T2BM33e8rbemhtYl3xJob8eQkIBzxw46t26jc+s2JFVgSk3BlJpCwNFO57oN
+dG3YiOJ2Uffv97ENG0zfx/6KCASomDGbxo8+wZLbm7ixZ2JKSsJbU4PS1UXChPE0fPgxFS/MxpyV
+Sa+LLsSa3xdXaRkda37ENqgAc1oqbd8uo3PzVuxnjibmtOH4Ghpp+HABlqxM4ieegyTLFE77Pc7N
+W4k9YxQJkyeii7bh+H4l/uYWYk4bjmw2Uzn7ZZTOTmSDgZhhQzFnZeCprsFVXIJt0EAs2Vl0btnC
+jgf/jK+1FfvpI4kZPgyhqri2F2PN74c+JoZtd96Lp7wC+9gxxE8Yj2w24/jue5TOTmJGjkBnNh+2
+qB3X2c9DwePxhGYoI6mrq6OoqCjkeHuw+Hw+Wlpa9pk5Yxcul4utW7eG7HcVFRVs2bKFysrKkFPs
+gaipqUFV1X0G1Pd0Kr9ciAgoDJ02Fdl4+Da/n0tUahp97pxKvwcfJu60UThLi2n870dUvfky1W/M
+pmH+a7Qu/BT39i2Y0rNIuHEaiTdNRR/X3cMSgvbVy6l+8XHc5SX0uuV+LP0PziZW9cIsdj7+VKi0
+Lv4aAH10NGnXXU3MyBF0bNxM1UuvYkpJIevuOzHY7fgam2hZuAhDYgI5Dz1Avycfp++Tj5E3/c9k
+3HYLksFAzb/mIxv0xI09A/v4s4ifPImY00firqyifdWavbJ17AvHytV0/LgOY0oy8ZMnETd2DEmX
+XYyhVyLtq9fgLq8ItdVZraRcO4X85/5O/rN/J/a04fhbW/FUVCIUlcZP/ou3rp7EyZPo++Rj9H3i
+Ufo9+Si5f3qQmFGn0bL4a1zFJZjSU0m4YDJx484i+TeXorPZaF+zDvfO3dc6HE4aUSsrK6OsrAyH
+w0FtbW2YgH366ac4HA6+++47ysvLURQFn89HV1cXHR0ddHR00NLSQn19PW63m0AgQGdnJ36/H5fL
+xaJFiygpKQmdz+l0snPnTlRVpaKignXr1oVE7+OPPyYQCKAoCh0dHQgh6OzsxOv1UlFREYrtLC8v
+x+12s3r1agKBAMuXL8ftdlNVVYXf76ejo4O6urrQ+6ioqKCpqQm/309VVRWuPdwRTkbUQIDGVatJ
+nziRqH3YXY42vs5OSj/6GHdLMFpFZzIRUzCIzKtvoPc9D5Bz35/J/f1fyJ72EBl3P0jq7feRfPNU
+4i66AnNOn9Dw1N/WSs3rM6l64o8orc2kTv0L0aPPPmCUwZ70ffZJBrwyK1R6/Wb3pIUpI52UK/8H
+hEBxe7CfOZrowQNBkvC3thFwtGPJziYqLw9Jr8fYK5GEyZOwDshHBAJ4qmtQ3B4aPv4PJQ89Qsmf
+p+NYthyEwFtff1Ci5uoeJnpraqic+RLFf/gzO594Fn9zC4G2dhTn7v9DvT0WW//+6GNiMNjtRPXZ
+vdANCNylZUg6HbaBBZiSeiEb9NgG9Cfh/MkY4+Nx7igBIfBUVFH+zIzgtZ56DqXLib+tDeUI5SA8
+uE/mKNHc3BzmfLsv9Ho9AwYMwOPxIIRg5syZ9O/fHyEEF110EVarFafTSX5+PnV1dXz++edcfvnl
+1NfXs379ehoaGrjsssuYM2cOU6ZMYd26dQwaNIglS5YwcuRIqqqqqK2tJT4+nr59+9LW1sY333yD
+Xq/n008/ZezYsSiKEprhLC8vZ82aNQwZMoTm5mYWLlxIe3s7+fn5NDc3k5GRwdatW0lMTMRsNtPe
+3o4QgtbWVr777juampqwWCzU1dVhs9mw2WwoioLVakWSJKKjo6mtraW5uZm7774bt9tNY2PjfnuS
+dPuqxcfHY93HyknHC19nJ+6WZrJ+8YvIqmOCMTqalDPPYOUf/0ji4EH0u/56THZ7cNHq6GjojhXd
+H2rAT+uShdTOmYWvopS4CeeT/cfH0ccemk+dfczpGPeYNd0TxeWi7p13gxuqSuu3y0i69GKihwxG
+F21DMhjw1NUFZ2i73Uj87e3oo6ORjUb00TYQkHnX7djHnBF2boPdflATI6bkoJHemp9P9n33YtjT
+aC9JmPeIVJHk4HKQISJmivXxdoSi4G1sQvV6kc1mFI8HxenEmJiIufvc1oEF9H7wvuD970Knw5yc
+vHv7MDjuNjW9Xo/dbv/JssuLv7KykilTpuByuYiLiyMqKopvvvkGRVFCYidJEm1tbXR0dDB69GgG
+DBiAw+GgpKQk5NNWWFhIXl4eLpcLo9FInz59sNvtNDc309nZyaBBg9i4cSNjxowhEAjQr18/AFau
+XMnkyZNJSkqiV69ezJ07NxS+lJWVRV5eHgsXLsRisRAfH097ezuDBw9m1apVBAIBPB4PcXFxuFwu
+LrroIpxOJ2VlZYwdO5bU1FQqKiqorKzEbrczdOhQPB4PdXV1eL3e/ZZdfnj7c0M5WI6kTc3f1UXF
+Z58TP2gg5vi44Mye04nS/TesuMKLchBFdTsJdAUXC9lV1D1eB5xOdLJMxvhxdBVvZ9usF2ndsJGA
+swvF60Xp6iLg7CLQ2YG/vQNfWwu++lraN22g7oP5VMx4ktZli7FkZJE59SHSb7ob+SDjO/e0qels
+VpzbiujcsClU9DYrOrOF6ldep+XLr7D270fihefTvnot3tpa7GPOQB9tw1laRtemLbh2lCAZDbQs
+/prS6Y/jKt5B3PixKF1OOtb+iL+5NbiYSyBAy1dL8NbWETtyBLLRSNu3Sw9oU4vq15eWRYtxl1eC
+EsAYn4i3vp7GDz7GnJFBVG4OQgiqXnoFfUw0CZMmBLONCEHb8u/p3LAJ+1lnEjN8GDqrjbaly+ja
+Vojw+/G3O6h48R9Uv/Qq5sx0YkeNpOWrxXhr6kBRMMbF4a2uof7dD7Dm9wtmBj4CEwUnzexndXU1
+AMXFxYwZM4ba2lpSUlKIiopi6dKlnH322UiSRENDA8uXL8dmsxEfH096ejopKSl8/fXXmEwm7HY7
+DQ0NIUfejo6O0JBx5MiR+Hw+Nm3aRFNTE8nJyeTl5dHY2Ejf7jTJH330EbGxsSQmJiKEIDk5mZKS
+EpKTkykrKyMjIwMhBPX19eTm5tLe3s7QoUNZs2YNcXFxVFRU0K9fP+rr6xk8eDD19fV4vV4qKyuJ
+iooiIyODsrIyEhMTGT58eMRTOLr4fD4WLlxIXl7eYadL97S2snzqb1F8XiwJQduUJIEu0uAhgT5i
+nywFp/VlCaTuNruQ9qhHDaZwkrrbybIUcuwXYte5JWRUPC0OOhqb8Xv9yNGxGOzxyJIAVQFFQfW4
+kPxeZJ0Oc69EonLysJ92BjHDRmKwxx1SxEDHmh/ZMf1RPJXB/9lI+vz1L+jtMZQ//QJCqPR//mkM
+8fGU/u0pHD+sIPWaq8ieehddWwupfn0OHWt+JNDZhazXYcrIIPXaKaROuQJfSwuVs1+mbdly/M3N
+IEBnjSLhvHPJuudOTKkplD3+JHXvfkj21LtIv/kGOjZuZssNt2IfM5o+0/+CKT2Ntu+WU/XqHJxb
+C4NDSQlMqalk3HoTKb+5FAGsHDkGU1oafab/mdgzTgdVpfyZF6h5+x2y75tK+vXXoPoD1L3zLo0f
+f4K7ohIRUNBZo4g9fSRZ996FbUB/mhcuouZf83AWbUd0hzCas7LI+N9bSLr4l8GFwQ/hWe+Lk0bU
+drXd5XC6q0e2a9+eDrBerxe9Xo+0R8aLXamvDQYDPp8vlJZ713kVRQk5sO7KUWbs7r7vef5AIBDa
+lrqz7Aa/WBJ+vx+9Xo8sy/h8vlA8pizLYW0MBkPY/dOd/UOWZXQ6Xdh5jiVCCNrb2zGZTGFREj8H
+1eenYc0aPM27g/albmGLRJbDdAuJoErtErTIQ+SIHbvb7d047Jo6PbIlClXWISQ9qteD6nIiVAVZ
+r0dvtWG0x2FMSEAfl7DfHG4/hb+1la7N21D2Yxe1DRyA4nbj3lmOITGB2JGngariLCnDvXMnssGI
+fdwYJFnGW9+Aq3gHvsZmZLMJS3YW1vx+yBYzCIG/zYGzeAfe2jpEwI+xVy+s+f0wpSQH1yDYug1P
+ZTVR/fpgyelNwNFO+6o1GBITsA0sQBdlQSgK7qpqXDtKCbS1IhuNmDMziOrXF310NEJVaV64CJ0l
+iujBAzEkxIMQOIuKcZdXEJXfF0vvbCRZRnG5cJeW4S6vQHG5MCQmYM3Px5SaEsrQ666oxFVaRsDR
+jmwyYs7KIqpfn9DC06eMqGmchESkJz9RkCQJsevL032PkiTtW3F/Lgd4392dyN2v97zuruMi9glV
+DQ7N9vdDp6rB9yHLex1L5HX2dY3u/aL7xzfSXravY4QQSJHn3lWnqrCv+wk12P+1Is91qBxXUdPQ
+0NA40uxH9jU0NDROTjRR09DQ6FFooqahodGj0ERNQ0OjR6GJmoaGRo9CEzUNDY0ehSZqGhoaPQpN
+1DQ0NHoUmqhpaGj0KDRR09DQ6FFooqahodGj0ERNQ0OjR6GJmoaGRo9CEzUNDY0ehSZqGhoaPQpN
+1DQ0NHoUmqhpaGj0KDRR09DQ6FFooqahodGj0ERNQ0OjR6GJmoaGRo9CEzUNDY0ehSZqGhoaPQpN
+1DQ0NHoUmqhpaGj0KDRR09DQ6FH8f5B4wdUX/464AAAAAElFTkSuQmCC</image>
+               </value>
+               <ui>
+                  <imageEdit/>
+               </ui>
+               <desc>
+                  <text name="embeddedHref">C:\Users\jmlourdesteshina\Pictures\Screenshots\Screenshot 2025-11-17 120038.png</text>
+               </desc>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?>
+         <subform h="50.8mm" name="Subform2" w="203.2mm" y="76.2mm">
+            <bind match="none"/>
+            <field access="readOnly" h="9mm" id="floatingField000041" name="CUSTOMER_ID" presence="hidden" w="62mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="10"/>
+               </value>
+               <bind match="dataRef" ref="$.IT_HEADER.CUSTOMER_ID"/>
+               <caption>
+                  <value>
+                     <text xliff:rid="931AB28F-735D-47BF-A31F-4B3A89A8D6B1">Sold-to</text>
+                  </value>
+               </caption>
+               <desc>
+                  <text name="Schema Annotation">Sold-to Party</text>
+               </desc>
+            </field>
+            <field access="readOnly" h="9mm" id="floatingField018467" name="INVOICE_NO" presence="hidden" w="62mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="10"/>
+               </value>
+               <bind match="dataRef" ref="$.IT_HEADER.INVOICE_NO"/>
+               <caption>
+                  <value>
+                     <text xliff:rid="CC912BD4-EE5F-4B4A-857C-754E84F8CE34">Bill. Doc.</text>
+                  </value>
+               </caption>
+               <desc>
+                  <text name="Schema Annotation">Billing Document</text>
+               </desc>
+            </field>
+            <field access="readOnly" h="9mm" id="floatingField006334" name="INVOICE_DATE" presence="hidden" w="62mm" y="0mm">
+               <ui>
+                  <dateTimeEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <caption>
+                  <value>
+                     <text xliff:rid="E9D4BA4E-102F-436A-8111-C1E51F9D13B0">Billing Date</text>
+                  </value>
+               </caption>
+               <desc>
+                  <text name="Schema Annotation">Billing Date</text>
+               </desc>
+               <validate nullTest="error"/>
+               <bind match="dataRef" ref="$.IT_HEADER.INVOICE_DATE">
+                  <picture>date{YYYY-MM-DD}</picture>
+               </bind>
+            </field>
+            <field access="readOnly" h="9mm" id="floatingField026500" name="SALES_ORG" presence="hidden" w="62mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <bind match="dataRef" ref="$.IT_HEADER.SALES_ORG"/>
+               <caption>
+                  <value>
+                     <text xliff:rid="CC8F131C-C4C8-4BC1-996C-7975E3380889">SOrg.</text>
+                  </value>
+               </caption>
+               <desc>
+                  <text name="Schema Annotation">Sales Organization</text>
+               </desc>
+            </field>
+            <field access="readOnly" h="9mm" id="floatingField019169" name="BILLING_TYPE" presence="hidden" w="62mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <bind match="dataRef" ref="$.IT_HEADER.BILLING_TYPE"/>
+               <caption>
+                  <value>
+                     <text xliff:rid="D5FF180B-3C7A-484D-9CE2-F0B71126D801">BillT</text>
+                  </value>
+               </caption>
+               <desc>
+                  <text name="Schema Annotation">Billing Type</text>
+               </desc>
+            </field>
+            <draw h="0in" name="Line1" w="190.5mm" x="6.35mm" y="47.625mm">
+               <value>
+                  <line slope="/">
+                     <edge thickness="0.508mm">
+                        <color value="128,0,0"/>
+                     </edge>
+                  </line>
+               </value>
+            </draw>
+            <draw h="5.939mm" name="Text15" w="53.685mm" x="6.35mm" y="3.175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="E6952FED-7D40-4F49-B784-AC6E620F9621">BILL INFORMATION :</text>
+               </value>
+               <font baselineShift="0pt" size="14pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 149344 14001 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 18 BILL INFORMATION : 0 1417 12396 0 0 0 "Times New Roman" 1 0 14000 ISO-8859-1?></draw>
+            <draw h="6.35mm" name="Text4" w="193.675mm" x="6.35mm" y="12.7mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="350DC326-B8D6-4078-8523-AAC85C964805">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">CUSTOMER_ID :<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <draw h="6.35mm" name="Text5" w="193.675mm" x="6.35mm" y="19.05mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="ADC6EEE4-D4DC-40AD-8153-0879815D3F92">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">INVOICE_NO :<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <draw h="6.35mm" name="Text6" w="193.675mm" x="6.35mm" y="25.4mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="1CDED6B8-1EF1-4859-A42F-4EF912B61551">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">INVOICE_DATE :<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <draw h="6.35mm" name="Text7" w="193.675mm" x="6.35mm" y="31.75mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="DFFDF9AD-C3E2-4D62-80AF-4DDE12106C40">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">SALES_ORG :<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField026500" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <draw h="6.35mm" name="Text8" w="193.675mm" x="6.35mm" y="38.1mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="514872CA-E48F-4B87-AF63-F6940B64A719">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">BILLING_TYPE :<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField019169" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">   </span></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform h="76.494mm" name="Subform3" w="203.2mm" y="127mm">
+            <bind match="none"/>
+            <subform columnWidths="22.2251mm 24.38mm 25.912mm 22.2251mm 21.081mm 22.2251mm 11.866mm 22.2251mm 24.38mm" layout="table" name="IT_ITEM" x="3.175mm" y="25.4mm">
+               <subform id="overflowLeader_ID" layout="row" name="overflowLeader">
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="EC444050-0BB2-4635-8C0C-2BD7774E3954">INVOICE_NO</text>
+                     </value>
+                     <font baselineShift="0pt" size="9pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="2AC820C0-AC22-49EC-8E5B-81919F9E451B">MATERIAL_NO</text>
+                     </value>
+                     <font baselineShift="0pt" size="8.5pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="D05780F3-3622-45BD-9BC5-53BFA316875A">MATERIAL_DESC</text>
+                     </value>
+                     <font baselineShift="0pt" size="8.5pt" typeface="Times New Roman"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm" w="0.875in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="E5DBA032-1252-47E6-98B5-F12A5D476CF0">QUANTITY</text>
+                     </value>
+                     <font baselineShift="0pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="610A4660-F56A-48ED-A1B6-C0F2F37EE6D9">NET_ITEM</text>
+                     </value>
+                     <font baselineShift="0pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="89357353-74E1-4F85-BD0B-3A4818033091">CURRENCY</text>
+                     </value>
+                     <font baselineShift="0pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="E847A7D8-2CD6-4CEA-AB10-13F2C6A0ABE2">UNIT</text>
+                     </value>
+                     <font baselineShift="0pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="6E515B15-4DDD-441B-A57D-0E46C4CD9361">SALES_ORG</text>
+                     </value>
+                     <font baselineShift="0pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw h="8mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="655265CF-DA4F-4DF2-A6AD-2C72139EE274">BILLING_TYPE</text>
+                     </value>
+                     <font baselineShift="0pt" size="9pt" typeface="Times New Roman"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <assist role="TH"/>
+                  <occur max="-1"/>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="DATA">
+                  <field h="16.933mm" name="INVOICE_NO" w="62mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="10"/>
+                     </value>
+                     <bind match="dataRef" ref="$.INVOICE_NO"/>
+                     <desc>
+                        <text name="Schema Annotation">Billing Document</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="MATERIAL_NO" w="62mm" x="2.440944in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                     <bind match="dataRef" ref="$.MATERIAL_NO"/>
+                     <desc>
+                        <text name="Schema Annotation">Material Number</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="MATERIAL_DESC" w="62mm" x="4.881889in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                     <bind match="dataRef" ref="$.MATERIAL_DESC"/>
+                     <desc>
+                        <text name="Schema Annotation">Short text for sales order item</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="QUANTITY" w="62mm" y="0.354333in">
+                     <ui>
+                        <numericEdit>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="3" leadDigits="10"/>
+                     </value>
+                     <bind match="dataRef" ref="$.QUANTITY"/>
+                     <desc>
+                        <text name="Schema Annotation">Billing quantity in stock keeping unit</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="NET_ITEM" w="62mm" x="2.440944in" y="0.354333in">
+                     <ui>
+                        <numericEdit>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <decimal leadDigits="13"/>
+                     </value>
+                     <bind match="dataRef" ref="$.NET_ITEM"/>
+                     <desc>
+                        <text name="Schema Annotation">Net Value of Billing item in Document Currency</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="CURRENCY" w="62mm" x="4.881889in" y="0.354333in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="$.CURRENCY"/>
+                     <desc>
+                        <text name="Schema Annotation">SD Document Currency</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="UNIT" w="62mm" y="0.708667in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="$.UNIT"/>
+                     <desc>
+                        <text name="Schema Annotation">Sales Unit</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="SALES_ORG" w="62mm" x="2.440944in" y="0.708667in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                     <bind match="dataRef" ref="$.SALES_ORG"/>
+                     <desc>
+                        <text name="Schema Annotation">Sales Organization</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="16.933mm" name="BILLING_TYPE" w="62mm" x="4.881889in" y="0.708667in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                     <bind match="dataRef" ref="$.BILLING_TYPE"/>
+                     <desc>
+                        <text name="Schema Annotation">Billing Type</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <assist role="TR"/>
+                  <occur max="-1"/>
+                  <bind match="dataRef" ref="$.DATA[*]"/>
+                  <?templateDesigner expand 1?></subform>
+               <occur min="0"/>
+               <bind match="dataRef" ref="$.IT_ITEM"/>
+               <desc>
+                  <text name="Schema Annotation">table type for invoice pdf 1</text>
+               </desc>
+               <keep intact="contentArea"/>
+               <overflow leader="overflowLeader"/>
+               <?templateDesigner expand 1?></subform>
+            <draw h="17.792mm" name="Text16" w="190.415mm" x="6.35mm" y="3.175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="9744CC80-36BB-45AA-A328-05DE16266783">Dear Customer, The following table lists all invoiced materials along with their quantities, units, and corresponding net values. Please review the details carefully.</text>
+               </value>
+               <font baselineShift="0pt" size="13pt" typeface="Times New Roman"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="justify" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw h="16.593mm" name="Text21" w="190.5mm" x="6.35mm" y="222.25mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="F2CDC436-50E1-4696-A78A-87A2F9269731">All invoiced amounts are subject to the applicable tax regulations and payment terms. Any disputes or corrections must be reported within 7 working days from the invoice date.  </text>
+            </value>
+            <font baselineShift="0pt" size="13pt" typeface="Times New Roman"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 537166 44201 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 102 All invoiced amounts are subject to the applicable tax regulations and payment terms. Any disputes or  0 1417 11611 0 0 0 "Times New Roman" 0 0 13000 ISO-8859-1?>
+            <?renderCache.textRun 74 corrections must be reported within 7 working days from the invoice date.  0 1417 27211 0 0 0 "Times New Roman" 0 0 13000 ISO-8859-1?>
+            <?renderCache.textRun 1   0 1417 42811 0 0 0 "Times New Roman" 0 0 13000 ISO-8859-1?></draw>
+         <draw h="6.35mm" name="Text22" w="73.025mm" x="123.825mm" y="244.475mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html" xliff:rid="1A6972BC-CC00-4A7E-96F5-ADC5C513C992">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">SIGNATURE :<span style="xfa-spacerun:yes"> </span><span style="text-decoration:underline"><span style="xfa-spacerun:yes">                                                </span></span></p></body>
+               </exData>
+            </value>
+            <font typeface="Arial"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+      </subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20240701.1.52.2</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 108 27 000300100011001D0024002500270028002A002C0031003200350036003700380044004600470048004A004C004F0051005200550057 -.:ABDEGINORSTUacdegilnort?>
+      <?renderCache.subset "Times New Roman" 0 0 ISO-8859-1 4 256 65 00030003000E000F0010001100120013001400150016001700180019001A001B001C001D002300240025002600270028002A002C002F0030003100320033003400350036003700380039003C0042004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005B005C  +,-./0123456789:@ABCDEGILMNOPQRSTUVY_abcdefghijklmnopqrstuvwxy?>
+      <?renderCache.subset "Times New Roman" 1 0 ISO-8859-1 4 104 26 0003001D002400250026002700280029002A002B002C002E002F003000310032003300350036003700380039003C0042005E0060 :ABCDEFGHIKLMNOPRSTUVY_{}?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 65?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://AZKTLDS5CP.kcloud.com:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZF_CUSTOMER_YM">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IT_ITEM dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <INVOICE_NO/>
+               <MATERIAL_NO/>
+               <MATERIAL_DESC/>
+               <QUANTITY/>
+               <NET_ITEM/>
+               <CURRENCY/>
+               <UNIT/>
+               <SALES_ORG/>
+               <BILLING_TYPE/>
+            </DATA>
+         </IT_ITEM>
+         <IT_HEADER>
+            <CUSTOMER_ID/>
+            <INVOICE_NO/>
+            <INVOICE_DATE/>
+            <SALES_ORG/>
+            <BILLING_TYPE/>
+         </IT_HEADER>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (India)" name="en_IN">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">DD-MMM-YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">Rs.</currencySymbol>
+         <currencySymbol name="isoname">INR</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2025-11-27T06:07:01Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:50964918-4161-448d-82a4-4e7f01bc080b</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20240701.1.52.2</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
